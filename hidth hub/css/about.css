@@ -1,0 +1,21 @@
+body{
+   background-color:aliceblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#about{
+    font-size: 20px;
+    padding-top: 25px;
+    text-align: center;
+}
+#mainContent {
+    text-align: justify;
+padding-top: 40px;
+padding-right: 350px;
+padding-left: 350px;
+}
+h1{
+    margin: 0px;
+}

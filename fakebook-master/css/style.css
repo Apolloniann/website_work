@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+	resize: none;
+	font-size: 1.1em;
+}
+
+#topbar {
+	background-color: #009D3B;
+	height: 40px;
+	-webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.75);
+}
+
+#topbar > div {
+	width: 1000px;
+	color: white;
+	margin: auto;
+}
+
+#logo {
+	font-size: 1.5em;
+	line-height: 40px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: white!important;
+}
+
+#search {
+	height: 20px;
+	position: relative;
+	top: -7px;
+	left: 5px;
+	width: 350px;
+}
+
+#container {
+	width: 1000px;
+	margin: auto;
+}
+
+#sidebar, #content {
+	padding: 20px;
+}
+
+#sidebar {
+	box-sizing: border-box;
+	width: 200px;
+	float: left;
+	height: 500px;
+	border-right: 1px solid #ccc;
+	margin-right: 20px;
+}
+
+#new-status input[type=text] {
+	font-size: 1.1em;
+	padding: 5px;
+	margin-top: 30px;
+	width: 300px;
+}
+
+#request-friendship {
+	margin-bottom: 30px;
+	font-style: italic;
+}
+
+.top-button:first-of-type {
+	margin-left: 10px;
+}
+
+.top-button {
+	position: relative;
+	top: 5px;
+	cursor: pointer;
+}
+
+.top-button.selected {
+	background-color: white;
+}
+
+.top-button:hover {
+	background-color: #23BD5C;
+}
+
+.index-form {
+	width: 495px;
+	display: inline-block;
+}
+
+.index-form input[type=text], .index-form input[type=password] {
+	display: block;
+	font-size: 1.1em;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+.index-form .button {
+	margin-left: 250px;
+}
+
+.button {
+	font-size: 1.2em;
+}
+
+.status {
+	margin-bottom: 20px;
+}
+
+.status .text {
+	margin: 10px 0;
+}
+
+.status .details {
+	font-size: 0.8em;
+	color: gray;
+}
+
+.message .author {
+	text-decoration: 
+}
+
+.message .text {
+	font-size: 1.2em;
+}
+
+.message .actions, .likes, .comments {
+	margin: 20px 0;
+}
+
+.time {
+	font-size: 0.8em;
+	color: gray;
+}

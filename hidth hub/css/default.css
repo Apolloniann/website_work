@@ -1,0 +1,61 @@
+body, main{
+    padding: 0px;
+    margin: 0px;
+}
+html body main{
+    background-image:  url(home%20pic.jpg);
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    padding-top: 15%;
+}
+h1, form{
+    background-color: rgb(58, 58, 58, 0.4);
+    margin: 0px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+form{
+    padding-top: 2%;
+    padding-bottom: 20%;
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+.overlay-content input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay-content input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay-content button {
+    float: left;
+    width: 20%;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay-content button:hover {
+    background: #bbb;
+}
